@@ -35,10 +35,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
-
 extension ContentView {
     enum CurrentLight {
         case red, redYellow, green, yellow
@@ -70,3 +66,8 @@ extension ContentView {
         }
     }
 }
+
+#Preview {
+    ContentView()
+}
+
