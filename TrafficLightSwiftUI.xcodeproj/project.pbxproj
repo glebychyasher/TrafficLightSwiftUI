@@ -11,6 +11,7 @@
 		FB2E39E82B2A389F00EF4C9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2E39E72B2A389F00EF4C9B /* ContentView.swift */; };
 		FB2E39EA2B2A38A100EF4C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2E39E92B2A38A100EF4C9B /* Assets.xcassets */; };
 		FB2E39ED2B2A38A100EF4C9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2E39EC2B2A38A100EF4C9B /* Preview Assets.xcassets */; };
+		FB2E39F72B2A38EE00EF4C9B /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2E39F62B2A38EE00EF4C9B /* LightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FB2E39E92B2A38A100EF4C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2E39EC2B2A38A100EF4C9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB2E39EE2B2A38A100EF4C9B /* TrafficLightSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrafficLightSwiftUI.entitlements; sourceTree = "<group>"; };
+		FB2E39F62B2A38EE00EF4C9B /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FB2E39E92B2A38A100EF4C9B /* Assets.xcassets */,
 				FB2E39EE2B2A38A100EF4C9B /* TrafficLightSwiftUI.entitlements */,
 				FB2E39EB2B2A38A100EF4C9B /* Preview Content */,
+				FB2E39F62B2A38EE00EF4C9B /* LightView.swift */,
 			);
 			path = TrafficLightSwiftUI;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2E39E82B2A389F00EF4C9B /* ContentView.swift in Sources */,
+				FB2E39F72B2A38EE00EF4C9B /* LightView.swift in Sources */,
 				FB2E39E62B2A389F00EF4C9B /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +284,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -287,8 +292,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.SwiftBook.TrafficLightSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,6 +315,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -314,8 +323,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.SwiftBook.TrafficLightSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
